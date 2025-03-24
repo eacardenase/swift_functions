@@ -1,6 +1,14 @@
 import Cocoa
 
-func printGreeting() {
+//func printGreeting() {
+//    print("Hello, playground.")
+//}
+
+//func printGreeting() -> Void {
+//    print("Hello, playground.")
+//}
+
+func printGreeting() -> () {
     print("Hello, playground.")
 }
 
