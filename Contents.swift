@@ -26,6 +26,14 @@ func printPersonalGreeting(to name: String) {
 
 printPersonalGreeting(to: "Edwin")
 
+func printPersonalGreetings(to names: String...) {
+    for name in names {
+        print("Hello \(name), welcome to my party.")
+    }
+}
+
+printPersonalGreetings(to: "Franquil", "Keyla", "Irene", "Milagros")
+
 //func divisionDescriptionFor(numerator: Double, denominator: Double) {
 //    print("\(numerator) divided by \(denominator) is \(numerator / denominator)")
 //}
